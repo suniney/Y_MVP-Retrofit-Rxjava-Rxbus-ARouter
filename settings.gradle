@@ -1,0 +1,1 @@
+include ':app', ':basicres', ':basiclib', ':sharecomponent', ':logincomponent'
