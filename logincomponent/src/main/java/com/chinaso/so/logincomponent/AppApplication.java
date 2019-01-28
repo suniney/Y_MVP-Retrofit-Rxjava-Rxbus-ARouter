@@ -1,6 +1,7 @@
 package com.chinaso.so.logincomponent;
 
-import com.chinaso.so.basiclib.base.BaseApplication;
+
+import com.chinaso.so.basecomponent.base.BaseApplication;
 
 /**
  * @author yanxu

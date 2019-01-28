@@ -16,9 +16,10 @@ import android.widget.TextView;
 
 import com.chinaso.so.basecomponent.entity.ShareEntity;
 import com.chinaso.so.basecomponent.entity.ShareInfoEntity;
-import com.chinaso.so.basiclib.utils.CommonUtils;
-import com.chinaso.so.basiclib.utils.DisplayUtil;
-import com.chinaso.so.basiclib.utils.ToastUtil;
+
+import com.chinaso.so.basecomponent.utils.CommonUtils;
+import com.chinaso.so.basecomponent.utils.DisplayUtil;
+import com.chinaso.so.basecomponent.utils.ToastUtil;
 import com.umeng.socialize.bean.SHARE_MEDIA;
 
 import java.util.ArrayList;

@@ -22,6 +22,7 @@ android {
                 arguments = [AROUTER_MODULE_NAME: project.getName()]
             }
         }
+        manifestPlaceholders = [qqappid: "tencent101527869"]
     }
 
     buildTypes {
@@ -55,7 +56,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     compile "com.alibaba:arouter-api:$rootProject.arouter_api"
     annotationProcessor "com.alibaba:arouter-compiler:$rootProject.arouter_compiler"
-    compile project(path: ':basiclib')
     compile "com.jakewharton:butterknife:$rootProject.butterknife"
     annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterknife"
+    implementation project(':basecomponent')
 }

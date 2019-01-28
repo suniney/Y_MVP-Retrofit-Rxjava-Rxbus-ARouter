@@ -5,11 +5,11 @@ import android.graphics.BitmapFactory;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.chinaso.so.basecomponent.base.BaseApplication;
 import com.chinaso.so.basecomponent.entity.ShareInfoEntity;
-import com.chinaso.so.basiclib.base.BaseApplication;
-import com.chinaso.so.basiclib.utils.AppUtils;
-import com.chinaso.so.basiclib.utils.ToastUtil;
 
+import com.chinaso.so.basecomponent.utils.AppUtils;
+import com.chinaso.so.basecomponent.utils.ToastUtil;
 import com.umeng.socialize.ShareAction;
 import com.umeng.socialize.UMShareAPI;
 import com.umeng.socialize.UMShareListener;

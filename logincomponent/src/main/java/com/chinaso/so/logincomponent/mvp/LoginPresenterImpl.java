@@ -1,7 +1,7 @@
 package com.chinaso.so.logincomponent.mvp;
 
-import com.chinaso.so.basiclib.base.BasePresenterImpl;
-import com.chinaso.so.basiclib.utils.LogUtil;
+import com.chinaso.so.basecomponent.base.BasePresenterImpl;
+import com.chinaso.so.basecomponent.utils.LogUtil;
 import com.chinaso.so.logincomponent.entity.SplashEntity;
 import com.chinaso.so.logincomponent.net.CommonRetrofitManager;
 

@@ -1,7 +1,8 @@
 package com.chinaso.so.logincomponent.net;
 
-import com.chinaso.so.basiclib.http.BaseRetrofitManager;
-import com.chinaso.so.basiclib.http.utils.RxSchedulers;
+
+import com.chinaso.so.basecomponent.http.BaseRetrofitManager;
+import com.chinaso.so.basecomponent.http.utils.RxSchedulers;
 import com.chinaso.so.logincomponent.entity.SplashEntity;
 
 import java.util.List;

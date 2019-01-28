@@ -1,10 +1,11 @@
 package com.chinaso.so.logincomponent;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.chinaso.so.basiclib.base.BaseActivity;
-import com.chinaso.so.basiclib.base.RxBus;
-import com.chinaso.so.basiclib.base.RxEvent;
-import com.chinaso.so.basiclib.constant.ConstantRouteName;
+import com.chinaso.so.basecomponent.base.BaseActivity;
+import com.chinaso.so.basecomponent.base.RxBus;
+import com.chinaso.so.basecomponent.base.RxEvent;
+import com.chinaso.so.basecomponent.constant.ConstantRouteName;
+
 
 /**
  * @author yanxu

@@ -1,7 +1,8 @@
 package com.chinaso.so.logincomponent.mvp;
 
-import com.chinaso.so.basiclib.base.BasePresenter;
-import com.chinaso.so.basiclib.base.BaseView;
+
+import com.chinaso.so.basecomponent.base.BasePresenter;
+import com.chinaso.so.basecomponent.base.BaseView;
 
 /**
  * @author yanxu

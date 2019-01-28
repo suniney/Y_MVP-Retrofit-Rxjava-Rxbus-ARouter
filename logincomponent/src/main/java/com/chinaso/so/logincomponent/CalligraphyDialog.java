@@ -20,7 +20,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.chinaso.so.basiclib.base.BaseApplication;
+import com.chinaso.so.basecomponent.base.BaseApplication;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 
 

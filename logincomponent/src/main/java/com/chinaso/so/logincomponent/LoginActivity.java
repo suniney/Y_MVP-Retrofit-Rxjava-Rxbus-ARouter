@@ -1,16 +1,14 @@
 package com.chinaso.so.logincomponent;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.alibaba.android.arouter.launcher.ARouter;
-import com.chinaso.so.basiclib.base.BaseActivity;
-import com.chinaso.so.basiclib.base.RxEvent;
-import com.chinaso.so.basiclib.constant.ConstantRouteName;
-import com.chinaso.so.basiclib.utils.UploadPicturesHelper;
+import com.chinaso.so.basecomponent.base.BaseActivity;
+import com.chinaso.so.basecomponent.base.RxEvent;
+import com.chinaso.so.basecomponent.constant.ConstantRouteName;
+import com.chinaso.so.basecomponent.utils.UploadPicturesHelper;
 import com.chinaso.so.logincomponent.mvp.LoginContract;
 import com.chinaso.so.logincomponent.mvp.LoginPresenterImpl;
 

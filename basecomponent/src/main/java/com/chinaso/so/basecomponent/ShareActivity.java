@@ -8,9 +8,10 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.chinaso.so.basecomponent.base.BaseActivity;
+import com.chinaso.so.basecomponent.constant.ConstantRouteName;
 import com.chinaso.so.basecomponent.entity.ShareInfoEntity;
-import com.chinaso.so.basiclib.base.BaseActivity;
-import com.chinaso.so.basiclib.constant.ConstantRouteName;
+
 import com.umeng.socialize.UMShareAPI;
 
 
