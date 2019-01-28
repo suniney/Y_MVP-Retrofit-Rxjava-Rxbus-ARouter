@@ -38,8 +38,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     compile "com.alibaba:arouter-api:$rootProject.arouter_api"
     annotationProcessor "com.alibaba:arouter-compiler:$rootProject.arouter_compiler"
+    implementation project(':basecomponent')
     if (!isRunAlone.toBoolean()) {
         implementation project(':logincomponent')
-        implementation project(':basecomponent')
     }
 }

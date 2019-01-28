@@ -5,15 +5,13 @@ import android.view.View;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.chinaso.so.basecomponent.ShareDialog;
 import com.chinaso.so.basecomponent.base.BaseActivity;
 import com.chinaso.so.basecomponent.constant.ConstantRouteName;
-import com.chinaso.so.basecomponent.entity.ShareInfoEntity;
 
 
 @Route(path = ConstantRouteName.ACTIVITY_MAIN)
 public class MainActivity extends BaseActivity {
-    private ShareDialog shareDialog;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,8 +28,8 @@ public class MainActivity extends BaseActivity {
         findViewById(R.id.moudle_app_tv_test).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                ARouter.getInstance().build(ConstantRouteName.ACTIVITY_LOGIN).navigation();
-//                showToast("hahahah");
+                ARouter.getInstance().build(ConstantRouteName.ACTIVITY_LOGIN).navigation();
+                showToast("hahahah");
 //                ARouter.getInstance().build(ConstantRouteName.ACTIVITY_SHARE).navigation();
 //                showToast("hahahah");
 

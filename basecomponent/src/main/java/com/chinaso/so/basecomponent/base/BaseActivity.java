@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.chinaso.so.basecomponent.R;
 import com.chinaso.so.basecomponent.utils.ToastUtil;
 import com.trello.rxlifecycle2.LifecycleTransformer;
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
@@ -33,6 +34,7 @@ public abstract class BaseActivity<T extends BasePresenter> extends RxAppCompatA
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.base_AppTheme);
         setContentView(getViewLayout());
         unbinder = ButterKnife.bind(this);
         ARouter.getInstance().inject(this);

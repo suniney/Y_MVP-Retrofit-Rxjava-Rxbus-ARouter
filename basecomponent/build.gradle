@@ -36,11 +36,7 @@ android {
     resourcePrefix "base_"
     sourceSets {
         main {
-            if (isRunAlone.toBoolean()) {
-                manifest.srcFile 'src/main/AndroidManifest.xml'
-            } else {
-                manifest.srcFile 'src/main/module/AndroidManifest.xml'
-            }
+            manifest.srcFile 'src/main/AndroidManifest.xml'
         }
     }
     compileOptions {
