@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.alibaba.android.arouter.launcher.ARouter;
 import com.chinaso.so.basiclib.base.BaseActivity;
 import com.chinaso.so.basiclib.base.RxEvent;
 import com.chinaso.so.basiclib.constant.ConstantRouteName;
@@ -20,7 +21,7 @@ import butterknife.OnClick;
 
 @Route(path = ConstantRouteName.ACTIVITY_LOGIN)
 public class LoginActivity extends BaseActivity<LoginContract.Presenter> implements LoginContract.View {
-    @BindView(R.id.moudle_login_tv_main)
+    @BindView(R2.id.moudle_login_tv_main)
     TextView moudleLoginTvMain;
     private UploadPicturesHelper uploadPicturesHelper;
 
@@ -78,7 +79,8 @@ public class LoginActivity extends BaseActivity<LoginContract.Presenter> impleme
 //            }
 //        });
 //        dialog.show();
-        startActivity(new Intent(this, SecondActivity.class));
+//        startActivity(new Intent(this, SecondActivity.class));
+
     }
 
     @Override

@@ -14,6 +14,7 @@ android {
                 arguments = [AROUTER_MODULE_NAME: project.getName()]
             }
         }
+        manifestPlaceholders = [qqappid: "tencent101527869"]
     }
     resourcePrefix "app_"
     buildTypes {
@@ -40,5 +41,6 @@ dependencies {
     compile project(path: ':basiclib')
     if (!isRunAlone.toBoolean()) {
         implementation project(':logincomponent')
+        implementation project(':basecomponent')
     }
 }

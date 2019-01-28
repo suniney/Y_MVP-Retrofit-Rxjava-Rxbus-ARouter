@@ -28,7 +28,9 @@ public class MainActivity extends BaseActivity {
         findViewById(R.id.moudle_app_tv_test).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ARouter.getInstance().build(ConstantRouteName.ACTIVITY_LOGIN).navigation();
+//                ARouter.getInstance().build(ConstantRouteName.ACTIVITY_LOGIN).navigation();
+//                showToast("hahahah");
+                ARouter.getInstance().build(ConstantRouteName.ACTIVITY_SHARE).navigation();
                 showToast("hahahah");
             }
         });

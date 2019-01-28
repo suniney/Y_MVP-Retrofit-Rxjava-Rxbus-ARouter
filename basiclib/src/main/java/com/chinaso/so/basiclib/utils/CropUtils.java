@@ -11,7 +11,9 @@ import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 
 /**
- * Created by yangfang on 2016/2/23.
+ * @author yanxu
+ * @date:2018/10/18
+ * @description:
  */
 public class CropUtils {
     @SuppressLint("NewApi")

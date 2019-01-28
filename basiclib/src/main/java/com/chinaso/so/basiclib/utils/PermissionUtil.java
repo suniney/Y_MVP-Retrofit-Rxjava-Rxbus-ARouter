@@ -10,7 +10,9 @@ import android.support.v4.util.SimpleArrayMap;
 import android.util.Log;
 
 /**
- * Created by Administrator on 2016/7/22 0022.
+ * @author yanxu
+ * @date:2018/10/18
+ * @description:
  */
 public class PermissionUtil {
     public static final int REQUEST_SHOWCAMERA = 0;

@@ -16,9 +16,9 @@ import retrofit2.HttpException;
 
 
 /**
- * @说明 网络请求异常处理
- * @作者 zhanghe
- * @时间 2017/11/28
+ * @author yanxu
+ * @date:2018/10/18
+ * @description:
  */
 public class ExceptionConverter {
 

@@ -2,9 +2,9 @@ package com.chinaso.so.basiclib.http.utils;
 
 
 /**
- * @说明 server exception
- * @作者 zhanghe
- * @时间 2017/11/28
+ * @author yanxu
+ * @date:2018/10/18
+ * @description:
  */
 public class ServerException extends RuntimeException {
     private int code;

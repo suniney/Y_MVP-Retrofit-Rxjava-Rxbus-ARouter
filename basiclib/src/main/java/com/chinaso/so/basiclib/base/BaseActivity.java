@@ -6,6 +6,7 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.chinaso.so.basiclib.R;
 import com.chinaso.so.basiclib.utils.ToastUtil;
 import com.trello.rxlifecycle2.LifecycleTransformer;
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;

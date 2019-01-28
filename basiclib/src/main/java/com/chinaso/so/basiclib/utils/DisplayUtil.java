@@ -7,8 +7,12 @@ import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
 /**
- * dp与px单位间的相互转换
+ *
+ * @author yanxu
+ * @date:2018/10/18
+ * @description: dp与px单位间的相互转换
  */
+
 public class DisplayUtil {
     public static int Dp2Px(Context context, float dp) {
         final float scale = context.getResources().getDisplayMetrics().density;
