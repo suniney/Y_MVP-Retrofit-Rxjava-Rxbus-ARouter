@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/base_AppTheme">
         <activity
-            android:name=".ShareActivity"
+            android:name=".share.ShareActivity"
             android:theme="@style/base_AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

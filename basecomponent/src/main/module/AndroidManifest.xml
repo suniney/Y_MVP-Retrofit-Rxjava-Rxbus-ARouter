@@ -5,7 +5,7 @@
 
     <application>
         <activity
-            android:name=".ShareActivity"
+            android:name=".share.ShareActivity"
             android:screenOrientation="portrait" />
 
     </application>

@@ -1,5 +1,6 @@
 package com.chinaso.so.logincomponent;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -65,19 +66,19 @@ public class LoginActivity extends BaseActivity<LoginContract.Presenter> impleme
 
     @OnClick(R2.id.moudle_login_btn_show)
     public void onViewClicked() {
-//        Dialog dialog = new CalligraphyDialog(this, new CalligraphyDialog.CalligraphyDialogListener() {
-//            @Override
-//            public void takeCamera() {
-//                uploadPicturesHelper.uploadAvatarFromCameraRequest();
-//            }
-//
-//            @Override
-//            public void takePhoto() {
-//                uploadPicturesHelper.uploadAvatarFromAlbumRequest();
-//            }
-//        });
-//        dialog.show();
-//        startActivity(new Intent(this, SecondActivity.class));
+        Dialog dialog = new CalligraphyDialog(this, new CalligraphyDialog.CalligraphyDialogListener() {
+            @Override
+            public void takeCamera() {
+                uploadPicturesHelper.uploadAvatarFromCameraRequest();
+            }
+
+            @Override
+            public void takePhoto() {
+                uploadPicturesHelper.uploadAvatarFromAlbumRequest();
+            }
+        });
+        dialog.show();
+        startActivity(new Intent(this, SecondActivity.class));
 
     }
 

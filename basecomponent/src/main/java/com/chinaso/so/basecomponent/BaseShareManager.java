@@ -3,6 +3,8 @@ package com.chinaso.so.basecomponent;
 
 
 import com.chinaso.so.basecomponent.entity.ShareInfoEntity;
+import com.chinaso.so.basecomponent.share.ShareInterface;
+import com.chinaso.so.basecomponent.share.ShareManager;
 import com.umeng.socialize.bean.SHARE_MEDIA;
 
 

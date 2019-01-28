@@ -1,8 +1,5 @@
-if (isRunAlone.toBoolean()) {
-    apply plugin: 'com.android.application'
-} else {
-    apply plugin: 'com.android.library'
-}
+apply plugin: 'com.android.library'
+
 apply plugin: 'com.jakewharton.butterknife'
 
 
@@ -65,17 +62,15 @@ dependencies {
 
     compile "com.alibaba:arouter-api:$rootProject.arouter_api"
     annotationProcessor "com.alibaba:arouter-compiler:$rootProject.arouter_compiler"
+    compile "com.jakewharton:butterknife:$rootProject.butterknife"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterknife"
     //友盟社会化分享
     compile 'com.umeng.sdk:common:1.5.1'
     compile 'com.umeng.sdk:analytics:7.5.0'
-
     compile 'com.umeng.sdk:share-core:6.9.1'
     compile 'com.umeng.sdk:share-qq:6.9.1.1'
     compile 'com.umeng.sdk:share-wechat:6.9.1'
     compile 'com.umeng.sdk:share-sina:6.9.1'
-
-    compile "com.jakewharton:butterknife:$rootProject.butterknife"
-    annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.butterknife"
 
     //Rxbus
     compile 'com.jakewharton.rxrelay2:rxrelay:2.1.0'

@@ -1,1 +1,1 @@
-include ':app', ':basiclib', ':logincomponent', ':basecomponent'
+include ':app', ':logincomponent', ':basecomponent'
