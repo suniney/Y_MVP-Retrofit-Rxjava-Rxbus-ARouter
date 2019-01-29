@@ -6,14 +6,44 @@
     android:layout_height="match_parent"
     tools:context="com.chinaso.so.zjproject.MainActivity">
 
-    <TextView
-        android:id="@+id/moudle_app_tv_test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:id="@+id/app_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="42dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/base_colorAccent"
+        android:baselineAligned="true"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/app_tv_tab_home"
+            style="@style/app_home_bottom_menubar_text"
+            android:drawableTop="@drawable/app_home_home"
+            android:text="@string/app_home" />
+
+        <TextView
+            android:id="@+id/app_tv_tab_video"
+            style="@style/app_home_bottom_menubar_text"
+            android:drawableTop="@drawable/app_home_video"
+            android:text="@string/app_learn" />
+
+
+        <TextView
+            android:id="@+id/app_tv_tab_atlas"
+            style="@style/app_home_bottom_menubar_text"
+            android:drawableTop="@drawable/app_home_atlas"
+            android:text="@string/app_vision" />
+
+        <TextView
+            android:id="@+id/app_tv_tab_my"
+            style="@style/app_home_bottom_menubar_text"
+            android:drawableTop="@drawable/app_home_my"
+            android:text="@string/app_my" />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

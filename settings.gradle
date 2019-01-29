@@ -1,1 +1,1 @@
-include ':app', ':logincomponent', ':basecomponent'
+include ':app', ':logincomponent', ':basecomponent', ':homecomponent'

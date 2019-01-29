@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">logincomponent</string>
+    <string name="login_app_name">logincomponent</string>
+    <!-- FragmentSetting 设置相关 -->
+
+    <string name="login_txt_state_night">夜间</string>
+    <string name="login_txt_state_day">白天</string>
+    <string name="login_txt_comment">评论</string>
+    <string name="login_txt_read_history">阅读历史</string>
+    <string name="login_txt_member_level">会员等级</string>
+    <string name="login_txt_my_medal">我的勋章</string>
+    <string name="login_txt_cooperative_extension">合作推广</string>
+    <string name="login_txt_cooperative_extension_computer">电脑端</string>
+    <string name="login_txt_cooperative_extension_app">移动端</string>
+    <string name="login_txt_cooperative_extension_contact_us">联系我们</string>
+    <string name="login_txt_paidServiceTV">增值服务</string>
+    <string name="login_txt_function">功能介绍</string>
+    <string name="login_txt_message">推送新闻</string>
+    <string name="login_txt_no_message">这个星球暂时什么都没有哦~</string>
+    <string name="login_txt_back_cover">回看封面</string>
+    <string name="login_txt_collect">收藏</string>
+    <string name="login_txt_push_msg">我的推送</string>
+    <string name="login_txt_help">使用帮助</string>
+    <string name="login_txt_feed_back">意见反馈</string>
+    <string name="login_txt_check_update">检测新版本</string>
+    <string name="login_txt_about_us">关于我们</string>
+    <string name="login_txt_exit">退出手机美丽中国</string>
+    <string name="login_txt_logout">注销用户登录</string>
+    <string name="login_txt_system_setting">系统设置</string>
 </resources>

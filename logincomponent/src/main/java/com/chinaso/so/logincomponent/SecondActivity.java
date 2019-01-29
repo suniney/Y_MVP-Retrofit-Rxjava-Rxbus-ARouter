@@ -22,5 +22,10 @@ public class SecondActivity extends BaseActivity {
     @Override
     protected void initView() {
         RxBus.getDefault().post(new RxEvent(123456, "1111"));
+        getSupportFragmentManager()    //
+                .beginTransaction()
+                .add(R.id.fragment_container, new LoginFragment())   // 此处的R.id.fragment_container是要盛放fragment的父容器
+                .commit();
     }
+
 }

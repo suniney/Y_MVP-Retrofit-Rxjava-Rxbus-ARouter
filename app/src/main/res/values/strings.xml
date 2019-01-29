@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ZJProject</string>
+    <!--tab-->
+    <string name="app_home">首页</string>
+    <string name="app_learn">学习</string>
+    <string name="app_vision">视觉</string>
+    <string name="app_my">我的</string>
 </resources>
